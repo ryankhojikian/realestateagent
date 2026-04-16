@@ -136,7 +136,7 @@ docker run -p 8080:8080 \
 
 > `house_prices_analysis.ipynb` — EDA, ML pipeline replication, and prompt engineering experiments.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/house-prices-advanced-regression-techniques/blob/main/house_prices_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10LKpLw8_w1qk0bb2Snn7MCV6cJTKKFHf?usp=sharing)
 
 ---
 
