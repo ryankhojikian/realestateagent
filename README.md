@@ -126,7 +126,7 @@ docker build -t house-prices-agent .
 # Run (pass your API key at runtime — never bake secrets into the image)
 docker run -p 8080:8080 \
   -e LLM_PROVIDER=gemini \
-  -e GEMINI_API_KEY=your_key_here \
+  -e GEMINI_API_KEY=<apikey> \
   house-prices-agent
 ```
 
