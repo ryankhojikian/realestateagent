@@ -1,0 +1,74 @@
+{
+  "selection_metric": "rmse",
+  "feature_columns": [
+    "OverallQual",
+    "GrLivArea",
+    "TotalBsmtSF",
+    "FullBath",
+    "YearBuilt",
+    "GarageCars",
+    "KitchenQual",
+    "HouseStyle",
+    "LotArea",
+    "Neighborhood",
+    "ExterQual",
+    "BedroomAbvGr"
+  ],
+  "split_sizes": {
+    "train_rows": 1022,
+    "validation_rows": 219,
+    "test_rows": 219
+  },
+  "candidates": {
+    "random_forest": {
+      "train": {
+        "rmse": 12177.545633829694,
+        "mae": 7294.905369283178,
+        "r2": 0.9753608443634812
+      },
+      "validation": {
+        "rmse": 24806.234880399814,
+        "mae": 17003.020708124954,
+        "r2": 0.9020304721383808
+      }
+    },
+    "ridge": {
+      "train": {
+        "rmse": 32634.11640498672,
+        "mae": 20347.560475120394,
+        "r2": 0.823050228544565
+      },
+      "validation": {
+        "rmse": 26751.499315710924,
+        "mae": 19593.0707185233,
+        "r2": 0.8860627935569663
+      }
+    }
+  },
+  "winner": {
+    "name": "random_forest",
+    "train": {
+      "rmse": 12177.545633829694,
+      "mae": 7294.905369283178,
+      "r2": 0.9753608443634812
+    },
+    "validation": {
+      "rmse": 24806.234880399814,
+      "mae": 17003.020708124954,
+      "r2": 0.9020304721383808
+    },
+    "test": {
+      "rmse": 26726.982009986496,
+      "mae": 17498.413455098937,
+      "r2": 0.9061364363471267
+    }
+  },
+  "summary_stats": {
+    "median_sale_price": 165000.0,
+    "mean_sale_price": 181312.6927592955,
+    "typical_sale_price_range": {
+      "low": 130000.0,
+      "high": 215000.0
+    }
+  }
+}
