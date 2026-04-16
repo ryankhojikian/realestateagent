@@ -8,3 +8,19 @@ ollama
 python-dotenv
 streamlit
 requests
+
+
+
+
+examples:
+Description: "A brand new 2-story luxury mansion built in 2022 with a total living area of 4,000 sqft. It has an 'Excellent' overall quality rating, a high-end gourmet kitchen, 5 bedrooms, and a massive 4-car garage."
+
+Description: "A small 1-story cottage built in 1961 with about 900 sqft of space. It has 2 bedrooms, 1 full bathroom, and a basic kitchen. The overall quality is average (5), and it has a small 1-car garage."
+
+Description: "A nice 2-story family home in the Gilbert neighborhood with 1,600 sqft of living space. Built in 1998, it features 3 bedrooms, 2 full baths, and a 2-car garage. It has been well-maintained with good quality ratings."
+
+Description: "A large 1-story house from 1970 with 1,800 sqft but a 'Fair' quality rating. It has 4 bedrooms, a full basement, and an attached 2-car garage, but the exterior and kitchen are dated (TA/Fair)."
+
+Description: "A modern 1-story townhouse built in 2005 with 1,200 sqft. It has very high quality finishes (8), 2 bedrooms, a luxury kitchen, and a 2-car garage. It sits on a small lot but is in perfect condition."
+
+
