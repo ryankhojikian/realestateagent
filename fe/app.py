@@ -1,4 +1,5 @@
 import json
+import os
 from typing import Any, Dict, List, Tuple
 
 import pandas as pd
@@ -14,7 +15,7 @@ st.set_page_config(
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
-BACKEND_URL = "http://localhost:8080"
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8080")
 REQUEST_TIMEOUT_SECONDS = 20
 
 FIELD_LABELS: Dict[str, str] = {
